@@ -1,0 +1,32 @@
+.article {
+    max-width: 600px;
+    padding: 10%;
+    border: 2px solid #4F4A41;
+    border-radius: 25px;
+    margin: 25px auto;
+    background: #88BDBC;
+    color: #082213;
+    text-align: center;
+    line-height: 1.25;
+    font-size: 80%
+}
+
+.article__header {
+    font-size: 110%;
+}
+
+.article__paragraph {
+    color: #082213;
+    text-align: justify;
+    text-indent: 25px;
+}
+
+.article__paragraph--underscored {
+    text-decoration: underline;
+}
+
+.article__list {
+    max-width: 40%;
+    text-align: center;
+    margin-left: 25%;
+}

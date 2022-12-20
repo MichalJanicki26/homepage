@@ -1,0 +1,33 @@
+.table {
+    border: 2px solid #4F4A41;
+    border-radius: 25%;
+    border-collapse: collapse;
+    padding: 5px;
+    margin: auto;
+    width: fit-content;
+    vertical-align: middle;
+    display: none;
+}
+
+.table__caption {
+    caption-side: top;
+    text-align: center;
+    margin: auto;
+    text-decoration: underline;
+    font-size: 125%;
+    color: #4F4A41;
+}
+
+.table_head {
+    background-color: #4F4A41;
+    text-align: center;
+    border: 2px solid #4F4A41;
+    padding: 3px;
+}
+
+.table__cel {
+    background-color: #6E6658;
+    text-align: center;
+    border: 2px solid #4F4A41;
+    padding: 8px; 
+}
