@@ -1,4 +1,4 @@
-# Michał janicki - strona o mnie
+# Michał Janicki - strona o mnie
 
 ## Demo
 
