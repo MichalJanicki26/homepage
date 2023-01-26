@@ -12,27 +12,24 @@ html {
     font-family: 'Lato', sans-serif;
     font-size: 16pt;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-areas:
-        "header header header"
-        "article article article"
-        "article article article"
-        "footer footer footer";
-    
+    grid-template-areas: 
+    "header"
+    "main nav"
+    "footer";
 }
 
 .header {
-    grid-area: header;
+    grid-area: "header";
 }
 
-.article {
-    grid-area: article;
+.main {
+    grid-area: "main";
 }
 
-.aside {
-    grid-area: aside;
+.navigation {
+    grid-area: "nav";
 }
 
 .footer {
-    grid-area: footer;
+    grid-area: "footer";
 }
