@@ -12,24 +12,22 @@ html {
     font-family: 'Lato', sans-serif;
     font-size: 16pt;
     display: grid;
-    grid-template-areas: 
-    "header"
-    "main nav"
-    "footer";
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 50px;
 }
 
 .header {
-    grid-area: "header";
+    grid-column: span 3;
 }
 
 .main {
-    grid-area: "main";
+    grid-column: span 2;
 }
 
 .navigation {
-    grid-area: "nav";
+    grid-column: auto;
 }
 
 .footer {
-    grid-area: "footer";
+    grid-column: span 3;
 }
