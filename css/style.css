@@ -15,4 +15,27 @@ html {
     background: #112D32;
     color: #E0FFFF;
     font-family: 'Lato', sans-serif;
+<<<<<<< HEAD
+=======
+    font-size: 16pt;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin: 50px;
+}
+
+.header {
+    grid-column: span 3;
+}
+
+.main {
+    grid-column: span 2;
+}
+
+.navigation {
+    grid-column: auto;
+}
+
+.footer {
+    grid-column: span 3;
+>>>>>>> 7e04911a88ea0ecfcbaaab41822cdca1b5e99bef
 }
