@@ -1,21 +1,19 @@
 .table {
+    margin: 10%;
     border: 2px solid #4F4A41;
     border-radius: 25%;
     border-collapse: collapse;
-    padding: 5px;
-    margin: auto;
+    padding: 5%;
     width: fit-content;
     vertical-align: middle;
-    display: none;
 }
 
 .table__caption {
+    margin: 3%;
     caption-side: top;
     text-align: center;
-    margin: auto;
     text-decoration: underline;
-    font-size: 125%;
-    color: #4F4A41;
+    font-size: 16pt;
 }
 
 .table_head {
@@ -23,11 +21,13 @@
     text-align: center;
     border: 2px solid #4F4A41;
     padding: 3px;
+    width: fit-content;
 }
 
 .table__cel {
     background-color: #6E6658;
     text-align: center;
     border: 2px solid #4F4A41;
-    padding: 8px; 
+    padding: 8px;
+    width: fit-content; 
 }

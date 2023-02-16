@@ -1,10 +1,13 @@
 .header {
-    margin: auto auto 40px auto;
-    padding: 15px;
-    width: max-content;
-    background-color: #254E58;
-    text-shadow: 2px 2px #4F4A41;
     border: 2px solid #4F4A41;
-    border-radius: 100px;
-    font-size: 150%;
+    border-radius: 30px;
+    background-color: #254E58;
+    text-shadow: 3px 3px #4F4A41;
+    margin: auto;
+    max-width: 300px;
+}
+
+.header__text {
+    text-align: center;
+    font-size: 28pt;
 }
